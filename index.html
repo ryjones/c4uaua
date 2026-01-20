@@ -17,9 +17,7 @@
                 <span class="font-bold text-xl tracking-tight">Car 4 Ukraine</span>
             </div>
             <div class="hidden md:flex space-x-8 font-medium text-slate-600">
-                <a href="#about" class="hover:text-blue-600 transition">About</a>
                 <a href="#data" class="hover:text-blue-600 transition">Team Data</a>
-                <a href="#assets" class="hover:text-blue-600 transition">Assets</a>
             </div>
             <a href="https://github.com/ryjones/c4uaua" class="bg-slate-900 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-slate-800 transition">
                 View on GitHub
@@ -27,11 +25,11 @@
         </div>
     </nav>
 
-    <header class="hero-pattern py-20 text-white">
-        <div class="max-w-4xl mx-auto px-4 text-center">
-            <h1 class="text-5xl md:text-7xl font-extrabold mb-6">Car 4 Ukraine</h1>
-        </div>
-    </header>
+<header class="hero-pattern py-20 text-white bg-blue-600">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+        <h1 class="text-5xl md:text-7xl font-extrabold mb-6">Car 4 Ukraine</h1>
+    </div>
+</header>
 
     <section id="data" class="py-16 bg-white">
         <div class="max-w-6xl mx-auto px-4">
@@ -56,7 +54,7 @@
 
     <script>
         // List of CSV files in your repo
-        const csvFiles = ['battalion_stats.csv', 'donations.csv', 'normalized_donations.csv'];
+        const csvFiles = ['top_10_donors.csv', 'battalion_stats.csv', 'normalized_donations.csv'];
         const baseUrl = 'https://raw.githubusercontent.com/ryjones/c4uaua/main/';
         const container = document.getElementById('csv-tables-container');
 
